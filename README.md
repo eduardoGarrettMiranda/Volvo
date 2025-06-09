@@ -10,7 +10,7 @@ The project is structured in layers (VOLVO (web App), BLL, DAL, Models and Tests
 - Vehicle registration with validation by chassis id,
 - Vehicle listing
 - Change the color of an existing vehicle
-- Business logic displayed in the UI
+- Business logic validations displayed in the UI
 
 ---
 
