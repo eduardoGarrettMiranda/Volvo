@@ -35,7 +35,7 @@ VOLVO/
 ├── VOLVO.BLL/         - Business Logic Layer
 ├── VOLVO.DAL/         - Data Access Layer
 ├── VOLVO.Models/      - Models Layer
-├── VOLVO.Models/      - Unit Tests
+├── VOLVO.Tests/      - Unit Tests
 ├── README.md          - Project documentation
 
 ---
