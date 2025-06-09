@@ -1,0 +1,48 @@
+﻿@model IEnumerable<Vehicle>
+
+@{
+    ViewData["Title"] = "Vehicles List";
+}
+
+@if (!ViewData.ModelState.IsValid)
+{
+    <div class="alert alert-danger alert-dismissible fade show" role="alert">
+        @foreach (var error in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+        {
+            <div>@error.ErrorMessage</div>
+        }
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<a asp-action="Create" class="btn btn-primary">New Vehicle</a>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Chassis Id</th>
+            <th>Type</th>
+            <th>Number of Passengers</th>
+            <th>Color</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var vehicle in Model)
+        {
+            <tr>
+                <td>@vehicle.chassisNumberAndSeries</td>
+                <td>@vehicle.type</td>
+                <td>@vehicle.numberOfPassengers</td>
+                <td>@vehicle.color</td>
+                <td>
+                    <a asp-action="Details" asp-route-chassisSeries="@vehicle.chassisId.chassisSeries"
+                        asp-route-chassisNumber="@vehicle.chassisId.chassisNumber">Details</a>
+                </td>
+            </tr>
+        }
+
+    </tbody>
+</table>

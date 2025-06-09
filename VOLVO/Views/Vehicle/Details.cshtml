@@ -1,0 +1,17 @@
+﻿@model Vehicle
+
+@{
+    ViewData["Title"] = "Vehicle Detail";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<div>
+    <strong>Chassi:</strong> @Model.chassisNumberAndSeries <br />
+    <strong>Tipo:</strong> @Model.type <br />
+    <strong>Passageiros:</strong> @Model.numberOfPassengers <br />
+    <strong>Cor:</strong> @Model.color <br />
+</div>
+
+<a asp-action="ChangeColor" asp-route-chassisSeries="@Model.chassisId.chassisSeries" asp-route-chassisNumber="@Model.chassisId.chassisNumber" class="btn btn-primary">Change Color</a>
+<a asp-action="Index" class="btn btn-secondary">Back</a>

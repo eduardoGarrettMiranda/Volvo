@@ -1,0 +1,30 @@
+﻿@model Vehicle
+
+@{
+    ViewData["Title"] = "Change Color";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<form asp-action="ChangeColor">
+    @* <input type="hidden" asp-for="chassisNumberAndSeries" /> *@
+   <input type="hidden" name="chassisSeries" value="@Model.chassisId.chassisSeries" />
+    <input type="hidden" name="chassisNumber" value="@Model.chassisId.chassisNumber" />
+
+    <strong>Chassi:</strong> @Model.chassisNumberAndSeries<br />
+
+    <div class="form-group">
+        <label asp-for="color"></label>
+        <select asp-for="color" class="form-control" required>
+            <option value="">Select Vehicle Color</option>
+            <option value="Red">Red</option>
+            <option value="Yellow">Yellow</option>
+            <option value="Blue">Blue</option>
+            <option value="Green">Green</option>
+        </select>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Save</button>
+    <a asp-action="Index" class="btn btn-secondary">Back</a>
+
+</form>

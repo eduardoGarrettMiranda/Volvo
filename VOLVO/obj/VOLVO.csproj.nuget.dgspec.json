@@ -1,0 +1,275 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/eduardo/Desktop/VOLVO/APP/VOLVO/VOLVO/VOLVO.csproj": {}
+  },
+  "projects": {
+    "/Users/eduardo/Desktop/VOLVO/APP/VOLVO/BLL/BLL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/eduardo/Desktop/VOLVO/APP/VOLVO/BLL/BLL.csproj",
+        "projectName": "BLL",
+        "projectPath": "/Users/eduardo/Desktop/VOLVO/APP/VOLVO/BLL/BLL.csproj",
+        "packagesPath": "/Users/eduardo/.nuget/packages/",
+        "outputPath": "/Users/eduardo/Desktop/VOLVO/APP/VOLVO/BLL/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/eduardo/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/Users/eduardo/Desktop/VOLVO/APP/VOLVO/DAL/DAL.csproj": {
+                "projectPath": "/Users/eduardo/Desktop/VOLVO/APP/VOLVO/DAL/DAL.csproj"
+              },
+              "/Users/eduardo/Desktop/VOLVO/APP/VOLVO/Models/Models.csproj": {
+                "projectPath": "/Users/eduardo/Desktop/VOLVO/APP/VOLVO/Models/Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/eduardo/Desktop/VOLVO/APP/VOLVO/DAL/DAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/eduardo/Desktop/VOLVO/APP/VOLVO/DAL/DAL.csproj",
+        "projectName": "DAL",
+        "projectPath": "/Users/eduardo/Desktop/VOLVO/APP/VOLVO/DAL/DAL.csproj",
+        "packagesPath": "/Users/eduardo/.nuget/packages/",
+        "outputPath": "/Users/eduardo/Desktop/VOLVO/APP/VOLVO/DAL/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/eduardo/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/Users/eduardo/Desktop/VOLVO/APP/VOLVO/Models/Models.csproj": {
+                "projectPath": "/Users/eduardo/Desktop/VOLVO/APP/VOLVO/Models/Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.Data.Sqlite": {
+              "target": "Package",
+              "version": "[9.0.5, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[9.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/eduardo/Desktop/VOLVO/APP/VOLVO/Models/Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/eduardo/Desktop/VOLVO/APP/VOLVO/Models/Models.csproj",
+        "projectName": "Models",
+        "projectPath": "/Users/eduardo/Desktop/VOLVO/APP/VOLVO/Models/Models.csproj",
+        "packagesPath": "/Users/eduardo/.nuget/packages/",
+        "outputPath": "/Users/eduardo/Desktop/VOLVO/APP/VOLVO/Models/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/eduardo/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/eduardo/Desktop/VOLVO/APP/VOLVO/VOLVO/VOLVO.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/eduardo/Desktop/VOLVO/APP/VOLVO/VOLVO/VOLVO.csproj",
+        "projectName": "VOLVO",
+        "projectPath": "/Users/eduardo/Desktop/VOLVO/APP/VOLVO/VOLVO/VOLVO.csproj",
+        "packagesPath": "/Users/eduardo/.nuget/packages/",
+        "outputPath": "/Users/eduardo/Desktop/VOLVO/APP/VOLVO/VOLVO/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/eduardo/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/Users/eduardo/Desktop/VOLVO/APP/VOLVO/BLL/BLL.csproj": {
+                "projectPath": "/Users/eduardo/Desktop/VOLVO/APP/VOLVO/BLL/BLL.csproj"
+              },
+              "/Users/eduardo/Desktop/VOLVO/APP/VOLVO/Models/Models.csproj": {
+                "projectPath": "/Users/eduardo/Desktop/VOLVO/APP/VOLVO/Models/Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
